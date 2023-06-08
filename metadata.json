@@ -1,0 +1,234 @@
+{
+   "hotspots":[
+      {
+         "title":"<b>24 slots</b>",
+         "description":"SFP+/SFP 10GE/1GE.",
+         "position":{
+            "x":-0.003,
+            "y":-0.08,
+            "z":0.001
+         }
+      },
+      {
+         "title":"<b>8 slots</b>",
+         "description":"SFP28/SFP+/SFP 25GE/10GE/1GE.",
+         "position":{
+            "x":0.114,
+            "y":-0.08,
+            "z":0.001
+         }
+      },
+	  {
+         "title":"<b>2 slots</b>",
+         "description":"QSFP28 100/40GE.",
+         "position":{
+            "x":0.155,
+            "y":-0.08,
+            "z":0.001
+         }
+      },
+	  {
+         "title":"<b>SD card slot</b>",
+         "description":"Insert a SD card into the SD card slot with the gold contact pins side facing up, until it clicks into place.",
+         "position":{
+            "x":0.112,
+            "y":-0.08,
+            "z":-0.016
+         }
+      },
+	  {
+         "title":"<b>ESD strap ground point</b>",
+         "description":"Electrostatic discharge (ESD) damage can occur if components are mishandled.<br/>Always wear an ESD-preventive wrist or ankle strap and always connect the ESD strap to the grounding plug on the front of the chassis.",
+         "position":{
+            "x":0.192,
+            "y":-0.08,
+            "z":-0.014
+         }
+      },
+	  {
+         "title":"<b>AC PSU</b>",
+         "description":"<b>Rated voltage (AC):</b> 100 to 240 VAC<br/><b>Operating Voltage Range (AC):</b> 90 to 264 VAC",
+         "position":{
+            "x":-0.184,
+            "y":-0.08,
+            "z":0.0
+         }
+      },
+	  {
+         "title":"<b>DC PSU</b>",
+         "description":"<b>Rated voltage:</b> 20 to 60 VDC<br/><b>Operating Voltage Range (DC):</b> 20 to 60 VDC",
+         "position":{
+            "x":-0.122,
+            "y":-0.08,
+            "z":0.0
+         }
+      },
+	  {
+         "title":"<b>Air filter</b>",
+         "description":"Blocks solid particulates, such as dust.",
+         "position":{
+            "x":0.208,
+            "y":-0.08,
+            "z":0.0
+         }
+      },
+	  {
+         "title":"<b>Management port</b>",
+         "description":"Used to configure, maintain, and support the network device.",
+         "position":{
+            "x":0.176,
+            "y":-0.08,
+            "z":0.012
+         }
+      },
+	  {
+         "title":"<b>Console port</b>",
+         "description":"Used to plug the console cable.",
+         "position":{
+            "x":0.176,
+            "y":-0.08,
+            "z":-0.008
+         }
+      },
+	  {
+         "title":"<b>Ground Point</b>",
+         "description":"Grounding wires are NOT PROVIDED with the 7250 IXR-e chassis.<br/>You must use a minimum of #8 AWG wire for the ground connection.",
+         "position":{
+            "x":0.198,
+            "y":0.191,
+            "z":0.003
+         }
+      },
+	  {
+         "title":"<b>General info</b>",
+         "description":"<b>2 people for the installation:</b> To prevent injury or damage to the chassis, it is recommended that two people remove the chassis from the shipping box and mount it into a rack.<br/><b>Weight of 7250 IXR-e Big GNSS:</b> 3.9 kg (8.6 lbs)<br/><b>Temperature:</b> -40 to 65°C.<br/><b>Humidity:</b> 5 to 95%.",
+         "position":{
+            "x":-0.003,
+            "y":0.055,
+            "z":0.032
+         }
+      }
+   ],            
+   "steps": [
+    {
+      "title": "Step 1: position the chassis on the rack",
+      "animation": "01_DataRackAppear",
+      "camera": "CameraFront_01-02"
+    },
+    {
+      "title": "Step 2: tighten the chassis screws to specification",
+      "animation": "02_ScrewsFrontInsert",
+      "camera": "CameraFront_01-02"
+    },
+    {
+      "title": "Step 3: remove grounding screws",
+      "animation": "03_ScrewsBackExtract",
+      "camera": "CameraBack_03-05"
+    },
+    {
+      "title": "Step 4: attach grounding cable",
+      "animation": "04_Grounding_CablePosition",
+      "camera": "CameraBack_03-05"
+    },
+    {
+      "title": "Step 5: fix grounding screws",
+      "animation": "05_GroundingScrewsInsert",
+      "camera": "CameraBack_03-05"
+    },
+    {
+      "title": "Step 6: attach ESD protection to the device",
+      "animation": "06_Wrist_Strap_insert",
+      "camera": "CameraFront_06-07"
+    },
+    {
+      "title": "Step 7: wear ESD protection",
+      "animation": "07_HandModelAppear",
+      "camera": "CameraFront_06-07"
+    },
+    {
+      "title": "Step 8: insert the AC PSU in one of the slots",
+      "animation": "08_AC_PSU_Insert",
+      "camera": "CameraFront_08-09_11-13_15_24-25"
+    },
+    {
+      "title": "Step 9: tighten the AC PSU captive screws",
+      "animation": "09_Screw_AC_Insert",
+      "camera": "CameraFront_08-09_11-13_15_24-25"
+    },
+    {
+      "title": "Step 10: install the AC power unit",
+      "animation": "10_ATXPowerSupply_Insert",
+      "camera": "CameraFront_10_14"
+    },
+    {
+      "title": "Step 11: attach the AC power cable to the AC PSU",
+      "animation": "11_PowerCable_AC_Insert",
+      "camera": "CameraFront_08-09_11-13_15_24-25"
+    },
+    {
+      "title": "Step 12: insert the DC PSU in the slot",
+      "animation": "12_DC_PSU_Insert",
+      "camera": "CameraFront_08-09_11-13_15_24-25"
+    },
+    {
+      "title": "Step 13: tighten the DC PSU captive screws",
+      "animation": "13_Screw_DC_Insert",
+      "camera": "CameraFront_08-09_11-13_15_24-25"
+    },
+    {
+      "title": "Step 14: install the DC power unit on the rail",
+      "animation": "14_DIN_Tracopower_Mount",
+      "camera": "CameraFront_10_14"
+    },
+    {
+      "title": "Step 15: attach the DC power cable to the DC PSU",
+      "animation": "15_PowerCable_Insert",
+      "camera": "CameraFront_08-09_11-13_15_24-25"
+    },
+    {
+      "title": "Step 16: insert the airfilter in the slot",
+      "animation": "16_Air_filter_Insert",
+      "camera": "CameraFront_16-17"
+    },
+    {
+      "title": "Step 17: tighten the filter captive screws",
+      "animation": "17_Screw_filter",
+      "camera": "CameraFront_16-17"
+    },
+    {
+      "title": "Step 18: insert the SD card in the PC",
+      "animation": "18_SD_Card_Father_toPC",
+      "camera": "CameraFront_18-23"
+    },
+    {
+      "title": "Step 19: install the software",
+      "animation": "20_InstallText",
+      "camera": "CameraFront_18-23"
+    },
+    {
+      "title": "Step 20: safely remove SD and insert it in the chassis",
+      "animation": "21_SD_card_ToChassis",
+      "camera": "CameraFront_18-23"
+    },
+    {
+      "title": "Step 21: connect the serial cable to the PC",
+      "animation": "22_RS232Cable_InsertPC",
+      "camera": "CameraFront_18-23"
+    },
+    {
+      "title": "Step 22: connect the serial cable to the chassis console port",
+      "animation": "23_EthernetTipChassisAction",
+      "camera": "CameraFront_16-17"
+    },
+    {
+      "title": "Step 23: switch on the AC power",
+      "animation": "24_AC_SwitchAction",
+      "camera": "CameraFront_08-09_11-13_15_24-25"
+    },
+    {
+      "title": "Step 24: switch on the DC power",
+      "animation": "25_DC_SwitchAction",
+      "camera": "CameraFront_08-09_11-13_15_24-25"
+    }
+  ]
+}
